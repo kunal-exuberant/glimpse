@@ -2,8 +2,11 @@ package glimpse;
 
 import glimpse.models.Destination;
 import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import org.junit.Test;
 
+import java.io.IOException;
 import java.util.*;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
@@ -88,4 +91,48 @@ public class DataExtractor {
     public static String getTitle(Document document){
         return document.getElementsByTag("title").text();
     }
+
+    public static String getHeadings(Document document){
+        Elements elements = document.getElementsByTag("h1");
+        elements.addAll(document.getElementsByTag("h2"));
+        elements.addAll(document.getElementsByTag("h3"));
+        elements.addAll(document.getElementsByTag("h4"));
+        elements.addAll(document.getElementsByTag("h5"));
+        elements.addAll(document.getElementsByTag("h6"));
+        elements.forEach(System.out::println);
+        return "";
+    }
+
+    public static String summarise(Document document){
+        Elements elements = document.getElementsByTag("h3");
+
+        elements.stream()
+                .map(e->{
+                    System.out.println(e);
+                        return Arrays.asList(e,e.parent());
+                })
+                .map(p->{
+                    System.out.println(p.get(0));
+                    return p.get(1).getElementsByTag("p");
+
+                })
+                .forEach(System.out::println);
+        return "";
+    }
+
+    @Test
+    public void test() throws IOException {
+        String baseUrl = "http://www.bangaloreorbit.com/trekking-in-karnataka/";
+        String url = baseUrl + "agumbe/agumbe.html";
+        Document document = DataCrawler.getRemoteDocument(url);
+
+        summarise(document);
+    }
+
+    @Test
+    public void testRegularExpression(){
+        Pattern pattern = Pattern.compile("[a-zA-Z]]");
+        System.out.println(pattern);
+    }
+
 }

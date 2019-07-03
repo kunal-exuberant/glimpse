@@ -9,7 +9,6 @@ import glimpse.models.Type;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.junit.Test;
-
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -18,10 +17,10 @@ import java.util.Map;
 public class DataCrawler {
 
     private static String baseDocumentDirectory
-            = "/Users/kunalsingh.k/likedriving/src/main/java/likedriving/design/Glimpse/glimpse.documents";
+            ="/Users/kunalsingh.k/glimpse/src/main/java/glimpse/documents";
 
-    private static String url = "http://www.bangaloreorbit.com/trekking-in-karnataka/index.html";
     private static String baseUrl = "http://www.bangaloreorbit.com/trekking-in-karnataka/";
+    private static String url = baseUrl + "index.html";
 
     public static Document getRemoteDocument(String url) throws IOException {
 
@@ -40,9 +39,7 @@ public class DataCrawler {
         {
             System.out.println("File does not exists. Fetching document from remote");
             Document document = Jsoup.connect(url).get();
-
             File directory = new File(baseDocumentDirectory);
-
             if(directory.exists()) {
                 File newFile = new File(directory, url.substring(url.lastIndexOf("/")));
                 if (newFile.createNewFile()) {
@@ -71,7 +68,7 @@ public class DataCrawler {
     @Test
     public void createFile() throws IOException{
         System.out.println("trying to create a new file");
-        File directory = new File("/Users/kunalsingh.k/likedriving/src/main/java/likedriving/design/Glimpse/glimpse.documents");
+        File directory = new File(baseDocumentDirectory);
         if(directory.exists()){
             System.out.println("directory exists");
             File newFile = new File(directory, "web-Content");
@@ -103,15 +100,10 @@ public class DataCrawler {
                 destination.setId(++Destination.DESTINATION_ID);
                 destination.setName(mapEntry.getKey().substring(0,mapEntry.getKey().indexOf("/")).replaceAll("-"," "));
                 //destination.setDistance(glimpse.DataExtractor.textBasedOnPattern(remoteDoc));
-
                 DataExtractor.textBasedOnTag(remoteDoc, "p", destination);
-
                 DataExtractor.textBasedOnString(remoteDoc, "Distances:", destination);
-
                 destination.setAddress(new Address("Bangalore", "Karnataka"));
-
                 destination.setType(Type.TREKKING);
-
                 mapEntry.setValue(destination);
                 //System.out.println(mapEntry.getKey());
                 //System.out.println(destination);
@@ -128,7 +120,6 @@ public class DataCrawler {
         }
         //System.out.println(elements);
     }
-
 
     public static String getFileName(String url){
         return url.substring(url.lastIndexOf("/"));
