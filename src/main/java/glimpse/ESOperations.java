@@ -44,7 +44,7 @@ import static org.elasticsearch.common.xcontent.XContentFactory.jsonBuilder;
 public class ESOperations {
 
     private static Client client = null;
-    private static String indexName = "test_index1";
+    private static String indexName = "test_index2";
     private static String type = "details";
     private static QueryBuilder queryBuilder;
     private static QueryBuilder builder;
@@ -272,5 +272,23 @@ public class ESOperations {
         else {
             System.out.println("Index could not be created");
         }
+    }
+
+    public static String getDocumentAsMapById(String id){
+
+        GetResponse response = client.prepareGet(indexName, type, id).execute().actionGet();
+        System.out.println(response.getSourceAsString());
+        System.out.println(response.getFields().get("found"));
+        return response.toString();
+//        System.out.println(response.toString());
+//        return response.getSourceAsMap();
+    }
+
+    @Test
+    public void getElementByIdTest(){
+        getClient();
+        String response = ESOperations.getDocumentAsMapById("agumbe");
+       // if(response.get)
+        System.out.println(response.length());
     }
 }

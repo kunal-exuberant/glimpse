@@ -5,5 +5,9 @@ public enum Type {
     BEACH,
     RIVER,
     RESORT,
-    TREKKING
+    TREKKING,
+    WATERFALL,
+    DAM,
+    ISLAND,
+    ARCHAEOLOGY
 }

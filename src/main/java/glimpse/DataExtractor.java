@@ -85,7 +85,10 @@ public class DataExtractor {
                 .forEach(y -> y.getElementsByTag("td")
                         .forEach(z -> z.getElementsByTag("p")
                                 .forEach(t-> d.setDescription(d.getDescription()+t.text())))));
-        d.setDescription(d.getDescription().substring(4));
+
+        if(d.getDescription() != null && d.getDescription().contains("null")) {
+            d.setDescription(d.getDescription().substring(4));
+        }
     }
 
     public static String getTitle(Document document){

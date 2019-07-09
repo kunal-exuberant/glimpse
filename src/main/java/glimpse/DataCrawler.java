@@ -16,10 +16,13 @@ import java.util.Map;
 
 public class DataCrawler {
 
-    private static String baseDocumentDirectory
-            ="/Users/kunalsingh.k/glimpse/src/main/java/glimpse/documents";
+    private static String baseDirectory
+            ="/Users/kunalsingh.k/glimpse/src/main/java/glimpse";
 
-    private static String baseUrl = "http://www.bangaloreorbit.com/trekking-in-karnataka/";
+    private static String baseDocumentDirectory
+            ="/Users/kunalsingh.k/glimpse/src/main/java/glimpse/documents/karnataka/hillstation";
+
+    private static String baseUrl = "http://www.bangaloreorbit.com/hill-stations-in-karnataka/";
     private static String url = baseUrl + "index.html";
 
     public static Document getRemoteDocument(String url) throws IOException {
@@ -103,7 +106,7 @@ public class DataCrawler {
                 DataExtractor.textBasedOnTag(remoteDoc, "p", destination);
                 DataExtractor.textBasedOnString(remoteDoc, "Distances:", destination);
                 destination.setAddress(new Address("Bangalore", "Karnataka"));
-                destination.setType(Type.TREKKING);
+                destination.setType(Type.HILL_STATION);
                 mapEntry.setValue(destination);
                 //System.out.println(mapEntry.getKey());
                 //System.out.println(destination);
@@ -113,8 +116,13 @@ public class DataCrawler {
 
                 System.out.println(destinationString);
 
-                ESOperations.addDocument(destination.getName(), destinationString);
-                RedisOperations.saveDestinationId();
+                if(ESOperations.getDocumentById(destination.getName()) == null) {
+                    ESOperations.addDocument(destination.getName(), destinationString);
+                    RedisOperations.saveDestinationId();
+                }
+                else {
+                    System.out.println("Error: REPEAT, destination already exists: "+destination.getName());
+                }
                 counter++;
             }
         }
