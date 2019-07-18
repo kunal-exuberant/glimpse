@@ -66,8 +66,10 @@ public class RedisOperations {
 
         ObjectMapper objectMapper = new ObjectMapper();
 
-        Destination destination1 = new Destination(1, "Ladhaak", Type.TREKKING, 2000,"Lakhaak is a beautiful place", null);
-        Destination destination2 = new Destination(2, "Munnar",Type.HILL_STATION, 400, "Munnar is a beanutiful place", null);
+        Destination destination1 = new Destination(1, "Ladhaak", Type.TREKKING, 2000,"Lakhaak is a beautiful place",
+                null, Collections.singletonList("agumbetrek-01.jpg"));
+        Destination destination2 = new Destination(2, "Munnar",Type.HILL_STATION, 400, "Munnar is a beanutiful place",
+                null, Collections.singletonList("agumbetrek-01.jpg"));
         List<Destination> destinationList1 = Arrays.asList(destination1, destination2);
 
         String str = objectMapper.writeValueAsString(destinationList1);

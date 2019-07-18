@@ -2,12 +2,14 @@ package glimpse;
 
 import glimpse.models.Destination;
 import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.junit.Test;
-
-import java.io.IOException;
+import javax.imageio.ImageIO;
+import java.awt.*;
+import java.io.*;
+import java.net.URL;
 import java.util.*;
+import java.util.List;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -138,4 +140,90 @@ public class DataExtractor {
         System.out.println(pattern);
     }
 
+    @Test
+    public void testImageCrawl() throws IOException{
+
+        String url  = "https://rukminim1.flixcart.com/image/832/832/jwdupow0/ghee/b/q/b/100-cow-plastic-bottle-thirumala-original-imafgxh9h3ccszx3.jpeg";
+        downloadImage(url);
+
+    }
+
+    public static List<String> extractImageUrl(Document document) {
+
+        Elements elements = document.getElementsByTag("img");
+        String baseUrl =  "http://www.bangaloreorbit.com";
+        List<String> imgUrls = new ArrayList<>();
+
+        List<String> indexedImageNames = new ArrayList<>();
+
+        elements.stream()
+                .filter(e-> e.attr("src").contains(".jpg") || e.attr("src").contains(".jpeg"))
+                .forEach(e-> {
+                    String src = e.attr("src");
+                    imgUrls.add(src.substring(src.indexOf("/assets/")));
+                });
+
+        imgUrls.forEach(
+                e->{
+                    System.out.println(baseUrl+e);
+                    String imageName = downloadImage(baseUrl+e);
+                    if(imageName != null) {
+                        indexedImageNames.add(imageName);
+                    }
+                }
+        );
+
+        return indexedImageNames;
+    }
+
+    public static String downloadImage(String url){
+
+        Image image = null;
+        String imageName = null;
+
+        String imageDirectory = "/Users/kunalsingh.k/glimpse/src/main/resources/assets/images/";
+
+        try {
+            URL urlObject = new URL(url);
+
+            imageName = url.substring(url.lastIndexOf("/")+1);
+            System.out.println(imageName);
+
+            File file = new File(imageDirectory+imageName);
+
+            if(file.exists()){
+                System.out.println(imageName + " is already present");
+                return imageName;
+            }
+            image = ImageIO.read(urlObject);
+            InputStream in = new BufferedInputStream(urlObject.openStream());
+            ByteArrayOutputStream out = new ByteArrayOutputStream();
+            byte[] buf = new byte[1024];
+            int n = 0;
+            while (-1!=(n=in.read(buf)))
+            {
+                out.write(buf, 0, n);
+            }
+            out.close();
+            in.close();
+            byte[] response = out.toByteArray();
+
+            FileOutputStream fos = new FileOutputStream(imageDirectory+imageName);
+            fos.write(response);
+            fos.close();
+            return imageName;
+
+        } catch (IOException e) {
+            System.out.println("Exception while downloading image: "+e);
+        }
+        return null;
+    }
+
+    @Test
+    public void downloadImageTest() throws IOException {
+        String baseUrl = "http://www.bangaloreorbit.com/trekking-in-karnataka/";
+        String url = baseUrl + "agumbe/agumbe.html";
+        Document document = DataCrawler.getRemoteDocument(url);
+        extractImageUrl(document);
+    }
 }

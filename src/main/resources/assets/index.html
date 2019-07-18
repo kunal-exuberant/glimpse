@@ -1,22 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
     <meta charset="UTF-8">
-    <title> Seller Cancellation </title>
+    <title> Glimpse | Recommends your next travel destination | Search your next travel destination </title>
 <head>
-    <link rel="stylesheet" href="styles/admin.css"/>
-
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+<div class ="wrapper">
+    <div class="header index-header">
+        <header class="header index-header">
+            <div class="container">
+                <div class="header-wrap">
+                    <a href="https://glipmse.com" class="logo"></a>
+                    <div class="holder-form-wrap">
+                        <form role="search" method="get" id="searchform" action="https://glipmse.com/">
+                            <div class="box-input">
+                                <input type="text" value="" name="s" id="s" class="holder-input aa-input" placeholder="Search..." autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-labelledby="s" aria-owns="algolia-autocomplete-listbox-0" dir="auto" style="">
+                                <pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: &quot;Roboto Condensed&quot;, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: normal; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre>
+                                <input type="submit" id="searchsubmit" value="Найти" hidden="">
+                                <input type="hidden" value="post" name="post_type">
+                                <button type="button" class="holder-button btn"> <i class="icon-form-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <ul id="menu-menu-header" class="navbar">
+                        <li id="menu-item-2393" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2393">
+                            <a href="https://travelsites.com/about/" class="nav-link btn">About</a>
+                        </li>
+                        <li id="menu-item-2619" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2619">
+                            <a href="https://travelsites.com/blog/" class="nav-link btn">Blog</a>
+                        </li>
+                    </ul>
+                    <button type="button" class="search-mobile icon-form-search"></button>
+                </div>
+            </div>
+        </header>
+    </div>
 
-<div class="header">
-    <img src="http://img1a.flixcart.com/www/promos/new/20150521-120450-flipkart-logo-retina.png" alt="Home" />
-    <h2>List of all seller cancelled orders</h2>
+    <div id="main-content" class="main-content">
+        <section class="author-outer">
+            <div class="container">
+                <div class="author-inner">
+                    <div class="author-text"> Hey Travelers, welcome to my site. You’ve just stumbled across the best place on the internet to find information on travel-related websites and resources. The concept itself is pretty self-explanatory; on the website are featured traveler resources, from renting a car to finding a cool place to stay, that have been reviewed and ranked accordingly. The collection is, and will remain, 100% free to use, zero ads, and non-profit. Enjoy!
+                        <div class="author-box-bottom">
+                            <ul class="social-list">
+                                <li class="item">
+                                    <a href="https://www.facebook.com/travelsitescom" class="icon-social-facebook"></a>
+                                </li>
+                                <li class="item">
+                                    <a href="https://twitter.com/travelsitescom" class="icon-social-twitter"></a>
+                                </li>
+                                <li class="item"><a href="https://www.instagram.com/travelsitescom/" class="icon-social-instagram"></a></li>
+                                <li class="item"><a href="https://www.linkedin.com/in/david-jones-b3316617a/" class="icon-social-linkedin"></a></li>
+                                <li class="item"><a href="https://travelsites.com/blog/" class="icon-social-blog"></a></li></ul><div class="by-name">TravelSites<span class="icon-heart"></span> by David Jones, Travel Enthusiast</div>
+                        </div>
+                    </div>
+                    <div class="decor-img">
+                        <img src="https://travelsites.com/wp-content/uploads/2019/02/travel-man-391x450.png" data-lazy-src="https://travelsites.com/wp-content/uploads/2019/02/travel-man-391x450.png" class="lazyloaded" data-was-processed="true">
+                        <noscript>
+                            <img src="https://travelsites.com/wp-content/uploads/2019/02/travel-man-391x450.png">
+                        </noscript>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 </div>
-        <script
-                src="https://code.jquery.com/jquery-3.3.1.min.js"
-                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-                crossorigin="anonymous"></script>
-        <script type="text/javascript" src="seller.js"></script>
-
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <script type="text/javascript" src="destination.js"></script>
+    <script type="text/javascript" src="recommendation.js"></script>
 </body>
 </html>

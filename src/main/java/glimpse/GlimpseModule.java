@@ -5,9 +5,9 @@ import com.google.inject.Singleton;
 import lombok.NoArgsConstructor;
 
 @NoArgsConstructor
-public class TravelDestinationModule extends AbstractModule {
+public class GlimpseModule extends AbstractModule {
     @Override
     protected void configure() {
-        bind(TravelDestinationResource.class).in(Singleton.class);
+        bind(DestinationResource.class).in(Singleton.class);
     }
 }

@@ -203,7 +203,7 @@ public class ESOperations {
     public static void main(String[] args) {
         getClient();
         createIndex();
-        Destination destination = new Destination(100,"Munnar", Type.HILL_STATION,400,"Munnar is beautiful hill station with huge valley view", new Address("Munnar City", "Karnataka"));
+        Destination destination = new Destination(100,"Munnar", Type.HILL_STATION,400,"Munnar is beautiful hill station with huge valley view", new Address("Munnar City", "Karnataka"), Arrays.asList("agumbetrek-01.jpg"));
         //addDocument(destination);
         addBulkDocuments(Arrays.asList(destination));
         //fetchDocument();

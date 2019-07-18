@@ -12,15 +12,15 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
-@Path("/glimpse")
+@Path("/destination")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
-public class TravelDestinationResource {
+public class DestinationResource {
 
     private DestinationService destinationService;
 
     @Inject
-    public TravelDestinationResource(DestinationService destinationService){
+    public DestinationResource(DestinationService destinationService){
         this.destinationService = destinationService;
         ESOperations.getClient();
     }

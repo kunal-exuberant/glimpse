@@ -6,24 +6,52 @@ import com.google.common.io.Files;
 import glimpse.models.Address;
 import glimpse.models.Destination;
 import glimpse.models.Type;
+import lombok.AllArgsConstructor;
+import lombok.Data;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.junit.Test;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class DataCrawler {
+
+    static Map<Type, CrawlData> destinationInfo = null;
 
     private static String baseDirectory
             ="/Users/kunalsingh.k/glimpse/src/main/java/glimpse";
 
     private static String baseDocumentDirectory
-            ="/Users/kunalsingh.k/glimpse/src/main/java/glimpse/documents/karnataka/hillstation";
+            ="/Users/kunalsingh.k/glimpse/src/main/resources/documents/karnataka/trekking";
 
-    private static String baseUrl = "http://www.bangaloreorbit.com/hill-stations-in-karnataka/";
+    private static String website = "http://www.bangaloreorbit.com/";
+    private static String baseUrl = "http://www.bangaloreorbit.com/trekking-in-karnataka/";
     private static String url = baseUrl + "index.html";
+
+    {
+        destinationInfo = new HashMap<>();
+
+        destinationInfo.put(Type.TREKKING, new CrawlData("trekking-in-karnataka", "trekking"));
+        destinationInfo.put(Type.HILL_STATION, new CrawlData("hill-stations-in-karnataka", "hillstation"));
+        destinationInfo.put(Type.ARCHAEOLOGY, new CrawlData("archaeology-in-karnataka", "archaeology"));
+        destinationInfo.put(Type.BEACH,  new CrawlData("beaches-in-karnataka", "beaches"));
+        destinationInfo.put(Type.RIVER,  new CrawlData("rivers-in-karnataka", "rivers"));
+        destinationInfo.put(Type.WATERFALL, new CrawlData( "waterfalls-in-karnataka", "waterfalls"));
+        destinationInfo.put(Type.ISLAND,  new CrawlData("islands-in-karnataka", "islands"));
+        destinationInfo.put(Type.DAM,  new CrawlData("dams-in-karnataka", "dams"));
+    }
+
+    @Data
+    @AllArgsConstructor
+    class CrawlData{
+        String url;
+        String directory;
+    }
 
     public static Document getRemoteDocument(String url) throws IOException {
 
@@ -88,47 +116,51 @@ public class DataCrawler {
         }
     }
 
-    public static void main(String[] args) throws IOException{
+    public static void main(String[] args) throws IOException {
         ESOperations.getClient();
-        Document document = getRemoteDocument(url);
-        Map<String, Destination> uniqueDesinationHrefs = DataExtractor.destinationHrefs(document);
+        for (Map.Entry<Type, CrawlData> destinationInfoMapEntry : destinationInfo.entrySet()) {
 
-        int lookUpLimit = 4000;
-        int counter = 0;
-        for(Map.Entry<String, Destination> mapEntry: uniqueDesinationHrefs.entrySet()){
-            if(counter < lookUpLimit) {
-                Document remoteDoc = getRemoteDocument(baseUrl + mapEntry.getKey());
-                Destination.DESTINATION_ID =  RedisOperations.loadDestinationId();
-                Destination destination = new Destination();
-                destination.setId(++Destination.DESTINATION_ID);
-                destination.setName(mapEntry.getKey().substring(0,mapEntry.getKey().indexOf("/")).replaceAll("-"," "));
-                //destination.setDistance(glimpse.DataExtractor.textBasedOnPattern(remoteDoc));
-                DataExtractor.textBasedOnTag(remoteDoc, "p", destination);
-                DataExtractor.textBasedOnString(remoteDoc, "Distances:", destination);
-                destination.setAddress(new Address("Bangalore", "Karnataka"));
-                destination.setType(Type.HILL_STATION);
-                mapEntry.setValue(destination);
-                //System.out.println(mapEntry.getKey());
-                //System.out.println(destination);
+            Document document = getRemoteDocument(website+destinationInfoMapEntry.getValue().getUrl()+"/index.html");
+            Map<String, Destination> uniqueDesinationHrefs = DataExtractor.destinationHrefs(document);
 
-                ObjectMapper objectMapper = new ObjectMapper();
-                String destinationString = objectMapper.writeValueAsString(destination);
+            boolean allowReindexing = true;
+            int lookUpLimit = 1000000000;
+            int counter = 0;
+            for (Map.Entry<String, Destination> mapEntry : uniqueDesinationHrefs.entrySet()) {
+                if (counter < lookUpLimit) {
+                    Document remoteDoc = getRemoteDocument(baseUrl + mapEntry.getKey());
+                    Destination.DESTINATION_ID = RedisOperations.loadDestinationId();
+                    Destination destination = new Destination();
+                    destination.setId(++Destination.DESTINATION_ID);
+                    destination.setName(mapEntry.getKey().substring(0, mapEntry.getKey().indexOf("/")).replaceAll("-", " "));
+                    //destination.setDistance(glimpse.DataExtractor.textBasedOnPattern(remoteDoc));
+                    DataExtractor.textBasedOnTag(remoteDoc, "p", destination);
+                    DataExtractor.textBasedOnString(remoteDoc, "Distances:", destination);
+                    destination.setAddress(new Address("Bangalore", "Karnataka"));
+                    destination.setType(Type.TREKKING);
+                    destination.setImages(DataExtractor.extractImageUrl(remoteDoc));
 
-                System.out.println(destinationString);
+                    mapEntry.setValue(destination);
+                    //System.out.println(mapEntry.getKey());
+                    //System.out.println(destination);
 
-                if(ESOperations.getDocumentById(destination.getName()) == null) {
-                    ESOperations.addDocument(destination.getName(), destinationString);
-                    RedisOperations.saveDestinationId();
+                    ObjectMapper objectMapper = new ObjectMapper();
+                    String destinationString = objectMapper.writeValueAsString(destination);
+
+                    System.out.println(destinationString);
+
+                    if (ESOperations.getDocumentById(destination.getName()) == null || allowReindexing) {
+                        ESOperations.addDocument(destination.getName(), destinationString);
+                        RedisOperations.saveDestinationId();
+                    } else {
+                        System.out.println("Error: REPEAT, destination already exists: " + destination.getName());
+                    }
+                    counter++;
                 }
-                else {
-                    System.out.println("Error: REPEAT, destination already exists: "+destination.getName());
-                }
-                counter++;
             }
+            //System.out.println(elements);
         }
-        //System.out.println(elements);
     }
-
     public static String getFileName(String url){
         return url.substring(url.lastIndexOf("/"));
     }
