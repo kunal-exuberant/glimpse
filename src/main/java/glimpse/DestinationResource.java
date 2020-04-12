@@ -5,6 +5,7 @@ import com.google.inject.Inject;
 import glimpse.models.Destination;
 import glimpse.models.Duration;
 import glimpse.models.Type;
+import lombok.extern.slf4j.Slf4j;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
@@ -15,6 +16,7 @@ import java.util.Optional;
 @Path("/destination")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
+@Slf4j
 public class DestinationResource {
 
     private DestinationService destinationService;

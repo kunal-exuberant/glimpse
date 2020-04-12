@@ -44,13 +44,13 @@ import static org.elasticsearch.common.xcontent.XContentFactory.jsonBuilder;
 public class ESOperations {
 
     private static Client client = null;
-    private static String indexName = "test_index2";
+    private static String indexName = "glimpse";
     private static String type = "details";
     private static QueryBuilder queryBuilder;
     private static QueryBuilder builder;
 
     public static Client getClient() {
-        String clusterName = "elasticsearch_kunalsingh.k";
+        String clusterName = "elasticsearch_kunal.singh1";
         String host = "localhost";
         Integer port = 9300;
 

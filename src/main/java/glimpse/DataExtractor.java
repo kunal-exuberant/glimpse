@@ -181,7 +181,7 @@ public class DataExtractor {
         Image image = null;
         String imageName = null;
 
-        String imageDirectory = "/Users/kunalsingh.k/glimpse/src/main/resources/assets/images/";
+        String imageDirectory = "/Users/kunal.singh1/projects/glimpse/src/main/resources/assets/images/";
 
         try {
             URL urlObject = new URL(url);

@@ -3,11 +3,13 @@ package glimpse;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.common.base.Charsets;
 import com.google.common.io.Files;
+import glimpse.kafka.KafkaProducerService;
 import glimpse.models.Address;
 import glimpse.models.Destination;
 import glimpse.models.Type;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.extern.slf4j.Slf4j;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.junit.Test;
@@ -19,21 +21,22 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+@Slf4j
 public class DataCrawler {
 
     static Map<Type, CrawlData> destinationInfo = null;
 
     private static String baseDirectory
-            ="/Users/kunalsingh.k/glimpse/src/main/java/glimpse";
+            ="/Users/kunal.singh1/projects/glimpse/";
 
     private static String baseDocumentDirectory
-            ="/Users/kunalsingh.k/glimpse/src/main/resources/documents/karnataka/trekking";
+            = baseDirectory+"src/main/resources/documents/karnataka/trekking";
 
     private static String website = "http://www.bangaloreorbit.com/";
     private static String baseUrl = "http://www.bangaloreorbit.com/trekking-in-karnataka/";
     private static String url = baseUrl + "index.html";
 
-    {
+    static {
         destinationInfo = new HashMap<>();
 
         destinationInfo.put(Type.TREKKING, new CrawlData("trekking-in-karnataka", "trekking"));
@@ -44,13 +47,6 @@ public class DataCrawler {
         destinationInfo.put(Type.WATERFALL, new CrawlData( "waterfalls-in-karnataka", "waterfalls"));
         destinationInfo.put(Type.ISLAND,  new CrawlData("islands-in-karnataka", "islands"));
         destinationInfo.put(Type.DAM,  new CrawlData("dams-in-karnataka", "dams"));
-    }
-
-    @Data
-    @AllArgsConstructor
-    class CrawlData{
-        String url;
-        String directory;
     }
 
     public static Document getRemoteDocument(String url) throws IOException {
@@ -149,12 +145,7 @@ public class DataCrawler {
 
                     System.out.println(destinationString);
 
-                    if (ESOperations.getDocumentById(destination.getName()) == null || allowReindexing) {
-                        ESOperations.addDocument(destination.getName(), destinationString);
-                        RedisOperations.saveDestinationId();
-                    } else {
-                        System.out.println("Error: REPEAT, destination already exists: " + destination.getName());
-                    }
+                    KafkaProducerService.sendRecords(String.valueOf(destination.getId()), destinationString);
                     counter++;
                 }
             }
@@ -168,4 +159,11 @@ public class DataCrawler {
     public static String getQualifiedFileName(String url){
         return baseDocumentDirectory+getFileName(url);
     }
+}
+
+@Data
+@AllArgsConstructor
+class CrawlData{
+    String url;
+    String directory;
 }

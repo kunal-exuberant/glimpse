@@ -2,412 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cb85bd3-335a-4f56-b055-247cec17f723" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/glimpse/GlimpseConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/glimpse/models/DestinationImages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/destination.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/recommedation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_7_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_scala_logging_scala_logging_2_12_3_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_yammer_metrics_metrics_core_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_connect_api_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_connect_json_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_2_12_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_streams_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_yetus_audience_annotations_0_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_rocksdb_rocksdbjni_5_7_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_12_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_12_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_4_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_statemachine_spring_statemachine_core_1_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/glimpse/kafka/BeamRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/glimpse/kafka/IKafkaConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/glimpse/kafka/KStreamService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/glimpse/kafka/KafkaConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/glimpse/kafka/KafkaConfiguration.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/glimpse/kafka/KafkaConsumerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/glimpse/kafka/KafkaProducerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/glimpse/kafka/KafkaProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/glimpse/kafka/KafkaRead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/glimpse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/glimpse.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_beta_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/DataCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/glimpse/DataCrawler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/DataExtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/glimpse/DataExtractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/DestinationResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/glimpse/DestinationResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/ESOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/glimpse/ESOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/RedisOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/glimpse/RedisOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/TravelDestinationApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/glimpse/GlimpseApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/TravelDestinationConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/TravelDestinationModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/glimpse/GlimpseModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/TravelDestinationResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/glimpse/DestinationResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/aihole.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/aihole.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/aralaguppe.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/aralaguppe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/badami.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/badami.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/belavadi.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/belavadi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/belur.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/belur.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/bhatkal.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/bhatkal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/bidar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/bidar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/bijapur.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/bijapur.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/doddagadduvalli.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/doddagadduvalli.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/gulbarga.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/gulbarga.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/halebid.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/halebid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/hampi.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/hampi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/harnavalli.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/harnavalli.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/haveri.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/haveri.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/humbucha.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/humbucha.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/ikkeri.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/ikkeri.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/ittagi.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/ittagi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/kambadah.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/kambadah.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/karkala.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/karkala.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/keladi.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/keladi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/koravangala.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/koravangala.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/kuruvatti.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/kuruvatti.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/lakundi.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/lakundi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/mangalore.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/mangalore.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/mosale.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/mosale.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/mudabidiri.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/mudabidiri.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/mysore.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/mysore.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/nagar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/nagar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/nandi.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/nandi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/pattadakal.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/pattadakal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/shravanabelagola.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/shravanabelagola.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/somnathpur.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/somnathpur.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/sringeri.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/sringeri.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/archaeology/srirangapatna.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/archaeology/srirangapatna.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/beaches/bhatkal-beach.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/beaches/bhatkal-beach.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/beaches/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/beaches/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/beaches/karwar-beach.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/beaches/karwar-beach.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/beaches/kaup-beach.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/beaches/kaup-beach.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/beaches/kudle-beach.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/beaches/kudle-beach.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/beaches/malpe-beach.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/beaches/malpe-beach.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/beaches/maravanthe-beach.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/beaches/maravanthe-beach.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/beaches/mukka-beach.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/beaches/mukka-beach.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/beaches/murudeshwara.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/beaches/murudeshwara.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/beaches/om-beach.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/beaches/om-beach.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/beaches/panambur-beach.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/beaches/panambur-beach.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/beaches/someshwar-beach.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/beaches/someshwar-beach.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/beaches/surathkal-beach.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/beaches/surathkal-beach.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/beaches/tannirubhavi-beach.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/beaches/tannirubhavi-beach.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/beaches/trasi-beach.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/beaches/trasi-beach.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/beaches/ullal-beach.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/beaches/ullal-beach.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/dams/almatti-dam.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/dams/almatti-dam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/dams/gajanur-dam.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/dams/gajanur-dam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/dams/gundal-reservoir.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/dams/gundal-reservoir.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/dams/harangi-dam.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/dams/harangi-dam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/dams/hidkal-dam.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/dams/hidkal-dam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/dams/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/dams/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/dams/kadra-dam.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/dams/kadra-dam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/dams/kanakanala-dam.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/dams/kanakanala-dam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/dams/kanva-reservoir.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/dams/kanva-reservoir.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/dams/kodasalli-dam.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/dams/kodasalli-dam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/dams/krishna-raja-sagara.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/dams/krishna-raja-sagara.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/dams/lakkavalli-dam.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/dams/lakkavalli-dam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/dams/linganamakki-dam.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/dams/linganamakki-dam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/dams/mari-kanive-dam.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/dams/mari-kanive-dam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/dams/markonahalli-dam.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/dams/markonahalli-dam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/dams/narihalla-dam.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/dams/narihalla-dam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/dams/nugu-reservoir.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/dams/nugu-reservoir.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/dams/sathanur-dam.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/dams/sathanur-dam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/dams/supa-dam.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/dams/supa-dam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/dams/suvarnavathi.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/dams/suvarnavathi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/dams/thippagondanahalli.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/dams/thippagondanahalli.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/dams/tunga-anicut-dam.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/dams/tunga-anicut-dam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/dams/tungabhadra-dam.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/dams/tungabhadra-dam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/dams/vani-vilas-sagar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/dams/vani-vilas-sagar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/hillstation/agumbe-hillstation.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/hillstation/agumbe-hillstation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/hillstation/bababudangiri-hills.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/hillstation/bababudangiri-hills.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/hillstation/biligiri-hills.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/hillstation/biligiri-hills.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/hillstation/biligirirangana-hills.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/hillstation/biligirirangana-hills.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/hillstation/bisle-ghat-hills.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/hillstation/bisle-ghat-hills.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/hillstation/coonoor-hillstation.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/hillstation/coonoor-hillstation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/hillstation/gangamoola-hills.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/hillstation/gangamoola-hills.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/hillstation/horanadu-hills.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/hillstation/horanadu-hills.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/hillstation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/hillstation/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/hillstation/kemmannugundi.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/hillstation/kemmannugundi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/hillstation/kudremukh-hills.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/hillstation/kudremukh-hills.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/hillstation/munnar-hills.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/hillstation/munnar-hills.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/hillstation/nandi-hills.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/hillstation/nandi-hills.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/hillstation/ooty-hillstation.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/hillstation/ooty-hillstation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/hillstation/savanadurga-hill.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/hillstation/savanadurga-hill.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/hillstation/yana-hills.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/hillstation/yana-hills.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/hillstation/yercaud-hillstation.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/hillstation/yercaud-hillstation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/islands/anjadiv-island.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/islands/anjadiv-island.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/islands/basavaraja-durga.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/islands/basavaraja-durga.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/islands/cauvery-nisargadhama.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/islands/cauvery-nisargadhama.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/islands/darya-bahadurgadh.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/islands/darya-bahadurgadh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/islands/devbagh-island.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/islands/devbagh-island.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/islands/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/islands/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/islands/karwar-island.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/islands/karwar-island.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/islands/kurumgad-island.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/islands/kurumgad-island.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/islands/madlimgadh-island.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/islands/madlimgadh-island.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/islands/mallikurve-island.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/islands/mallikurve-island.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/islands/netrani-island.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/islands/netrani-island.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/islands/panna-island.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/islands/panna-island.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/islands/sadashivgad-island.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/islands/sadashivgad-island.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/islands/sanyasi-island.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/islands/sanyasi-island.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/islands/sivasamudram.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/islands/sivasamudram.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/islands/srirangpatnam.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/islands/srirangpatnam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/islands/st-marys-island.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/islands/st-marys-island.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/arkavathy-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/arkavathy-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/bhadra-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/bhadra-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/bheemeshwari.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/bheemeshwari.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/bhima-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/bhima-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/chakra-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/chakra-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/dandavathi-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/dandavathi-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/devarahole-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/devarahole-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/ghataprabha-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/ghataprabha-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/gurupura-or-phalguni-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/gurupura-or-phalguni-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/hemavati-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/hemavati-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/honnuhole-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/honnuhole-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/kabini-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/kabini-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/kali-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/kali-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/kaveri-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/kaveri-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/kedaka-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/kedaka-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/krishna-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/krishna-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/kubja-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/kubja-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/kumaradhara-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/kumaradhara-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/lakshmana-tirtha-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/lakshmana-tirtha-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/mahadevapura-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/mahadevapura-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/malaprabha-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/malaprabha-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/mekedatu-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/mekedatu-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/muththathhi-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/muththathhi-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/netravati-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/netravati-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/palar-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/palar-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/pangala-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/pangala-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/penner-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/penner-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/ponnaiyar-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/ponnaiyar-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/shambhavi-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/shambhavi-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/sharavathi-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/sharavathi-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/shimsha-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/shimsha-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/souparnika-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/souparnika-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/south-pennar-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/south-pennar-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/tunga-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/tunga-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/tungabhadra-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/tungabhadra-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/udyavara-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/udyavara-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/varada-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/varada-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/varahi-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/varahi-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/vedavathi-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/vedavathi-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/rivers/vrishabhavathi-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/rivers/vrishabhavathi-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/aamerikallu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/aamerikallu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/agumbe.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/agumbe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/amedikallu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/amedikallu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/antaragange.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/antaragange.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/baale-gudda.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/baale-gudda.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/baba-budanagiri.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/baba-budanagiri.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/ballalarayana.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/ballalarayana.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/bandipur.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/bandipur.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/barai-valley.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/barai-valley.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/bilikal-betta.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/bilikal-betta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/brahmagiri.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/brahmagiri.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/coorg-plantation.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/coorg-plantation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/devaramane.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/devaramane.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/gopalaswamy-betta.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/gopalaswamy-betta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/igguthappa-kundu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/igguthappa-kundu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/jalamangala.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/jalamangala.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/kalwarbetta.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/kalwarbetta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/kanoor-fort.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/kanoor-fort.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/kemmannugundi.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/kemmannugundi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/kodachadri.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/kodachadri.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/kote-betta.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/kote-betta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/kudremukha.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/kudremukha.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/kumara-parvatha.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/kumara-parvatha.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/kuntibetta.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/kuntibetta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/kurinjal.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/kurinjal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/madhugiri.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/madhugiri.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/makalidurga.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/makalidurga.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/muktihole.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/muktihole.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/mullayanagiri.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/mullayanagiri.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/nagarhole.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/nagarhole.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/narasimha.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/narasimha.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/nijagal-betta.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/nijagal-betta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/ombattu-gudda.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/ombattu-gudda.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/pakshipathalam.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/pakshipathalam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/pushpagiri.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/pushpagiri.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/ramanagaram.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/ramanagaram.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/red-hills.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/red-hills.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/sathodi-falls.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/sathodi-falls.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/savandurga.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/savandurga.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/sharavathi-valley.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/sharavathi-valley.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/shingani-gudda.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/shingani-gudda.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/shivagange.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/shivagange.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/siddara-betta.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/siddara-betta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/tadiyandamol.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/tadiyandamol.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/yana-trek.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/yana-trek.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/trekking/yedakumeri.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/trekking/yedakumeri.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/abbey-waterfall.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/abbey-waterfall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/alekan-waterfall.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/alekan-waterfall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/balmuri-waterfall.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/balmuri-waterfall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/bandaaje-arbi-waterfall.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/bandaaje-arbi-waterfall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/banni-waterfall.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/banni-waterfall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/barkana-waterfall.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/barkana-waterfall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/benne-hole-waterfall.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/benne-hole-waterfall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/burude-waterfall.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/burude-waterfall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/chunchanakatte-waterfall.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/chunchanakatte-waterfall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/chunchi-waterfall.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/chunchi-waterfall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/dondole-waterfall.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/dondole-waterfall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/gokak-waterfall.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/gokak-waterfall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/hebbe-waterfall.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/hebbe-waterfall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/hemagiri-waterfall.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/hemagiri-waterfall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/hogenakkal-waterfall.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/hogenakkal-waterfall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/honnemaradu-waterfall.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/honnemaradu-waterfall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/iruppu-waterfall.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/iruppu-waterfall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/jog-waterfall.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/jog-waterfall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/kalhatti-waterfall.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/kalhatti-waterfall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/koosalli-waterfall.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/koosalli-waterfall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/kudumari-falls.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/kudumari-falls.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/kunchikal-falls.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/kunchikal-falls.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/lalguli-falls.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/lalguli-falls.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/magod-falls.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/magod-falls.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/mallalli-waterfall.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/mallalli-waterfall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/manikyadhara-waterfall.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/manikyadhara-waterfall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/muthyala-maduvu-waterfall.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/muthyala-maduvu-waterfall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/nisargadhama-waterfall.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/nisargadhama-waterfall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/sathodi-waterfall.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/sathodi-waterfall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/seetha-falls.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/seetha-falls.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/shiv-gange-waterfall.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/shiv-gange-waterfall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/shivasamudram-waterfall.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/shivasamudram-waterfall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/sirmane-waterfall.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/sirmane-waterfall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/sootanabbi-falls.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/sootanabbi-falls.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/unchalli-waterfall.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/unchalli-waterfall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/varapoha-waterfall.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/varapoha-waterfall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/vibhooti-waterfall.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/vibhooti-waterfall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/documents/karnataka/waterfalls/waate-halla-waterfall.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/karnataka/waterfalls/waate-halla-waterfall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glimpse/models/Destination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/glimpse/models/Destination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/travel-destination.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/glimpse.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/seller.js" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-2000585431">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="11" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="4" />
-          <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.4" value="2" />
-          <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="12" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="LICENSE" value="1" />
-          <entry key="Readme" value="3" />
-          <entry key="class" value="8" />
-          <entry key="css" value="2" />
-          <entry key="gitignore" value="1" />
-          <entry key="html" value="12" />
-          <entry key="iml" value="3" />
-          <entry key="java" value="142" />
-          <entry key="jpeg" value="5" />
-          <entry key="jpg" value="38" />
-          <entry key="js" value="7" />
-          <entry key="xml" value="3" />
-          <entry key="yaml" value="5" />
-          <entry key="yml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="8" />
-          <entry key="CSS" value="2" />
-          <entry key="HTML" value="12" />
-          <entry key="IDEA_MODULE" value="3" />
-          <entry key="Image" value="43" />
-          <entry key="JAVA" value="142" />
-          <entry key="JavaScript" value="7" />
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="XML" value="3" />
-          <entry key="YAML" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="css" value="212" />
-          <entry key="gitignore" value="42" />
-          <entry key="html" value="302" />
-          <entry key="java" value="2942" />
-          <entry key="js" value="1179" />
-          <entry key="xml" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CSS" value="212" />
-          <entry key="HTML" value="302" />
-          <entry key="JAVA" value="2942" />
-          <entry key="JavaScript" value="1179" />
-          <entry key="PLAIN_TEXT" value="42" />
-          <entry key="XML" value="3" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="glimpse" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/glimpse/DataCrawler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1674">
-              <caret line="123" column="58" selection-start-line="123" selection-start-column="37" selection-end-line="123" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#6964#6965#0" expanded="true" />
-                <element signature="e#7022#7023#0" expanded="true" />
-                <element signature="e#7082#7083#0" expanded="true" />
-                <element signature="e#7143#7144#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/glimpse/models/Type.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="11" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/glimpse/ESOperations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="105" selection-start-line="105" selection-end-line="105" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.8.8/jackson-databind-2.8.8.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="1173" column="18" selection-start-line="1173" selection-start-column="18" selection-end-line="1173" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/images/agumbetrek-5.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/glimpse/DataExtractor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="195" column="33" lean-forward="true" selection-start-line="195" selection-start-column="33" selection-end-line="195" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/site-images/glimpse-landing.jpeg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/site-images/glipmse-backgroud-1.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -416,97 +63,17 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>backgrou</find>
-      <find>index-header</find>
-      <find>travel-</find>
-      <find>dropwizard</find>
-      <find>author-outer</find>
-      <find>loadDestination(</find>
-      <find>loadDestination</find>
-      <find>index</find>
-      <find>name</find>
-      <find>destination-</find>
-      <find>destinationIterator</find>
-      <find>destinations.description</find>
-      <find>image</find>
-      <find>destination-snaps-table</find>
-      <find>&lt;img</find>
-      <find>imageBaseUrl</find>
-      <find>destinations</find>
-      <find>orderId</find>
-      <find>destinationId</find>
-      <find>'+destination.description+'</find>
-      <find>destination</find>
-      <find>img</find>
-      <find>table</find>
-      <find>images</find>
-      <find>getImageUrl</find>
-      <find>length</find>
-      <find>url</find>
-      <find>is already present</find>
-      <find>#destination-tab-about</find>
-      <find>allowReindexing</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>destinationIterator</replace>
-      <replace>destinations</replace>
-      <replace>destination</replace>
-      <replace>destinationId</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/DestinationService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DataExtractor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DataCrawler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DestinationStore.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DestinationStoreApp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ESOperations.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TravelDestinationResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MenuItemValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/UserActivityWorkFlow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/RedisOperations.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TravelDestinationApp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/glimpse/models/Type.java" />
-        <option value="$PROJECT_DIR$/src/main/java/glimpse/TravelDestinationResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/glimpse/TravelDestinationApp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/glimpse/TravelDestinationConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/glimpse/TravelDestinationModule.java" />
-        <option value="$PROJECT_DIR$/src/main/java/glimpse/models/DestinationImages.java" />
-        <option value="$PROJECT_DIR$/src/main/java/glimpse/models/Destination.java" />
-        <option value="$PROJECT_DIR$/src/main/java/glimpse/RedisOperations.java" />
-        <option value="$PROJECT_DIR$/src/main/java/glimpse/DestinationService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/glimpse/ESOperations.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/seller.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/destination.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/glimpse/GlimpseApp.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/destination.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/glimpse/DataExtractor.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/style.css" />
-        <option value="$PROJECT_DIR$/src/main/java/glimpse/DataCrawler.java" />
-      </list>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="877" />
-  </component>
+  <component name="ProjectId" id="1aMfHjHmFMstJAHMhfi6gacZM4E" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -555,158 +122,26 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="glimpse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="glimpse" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="glimpse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="glimpse" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="glimpse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="glimpse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="glimpse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="glimpse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="glimpse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="glimpse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="glimpse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="glimpse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="glimpse" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="glimpse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="glimpse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="glimpse" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="glimpse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="glimpse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="glimpse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="glimpse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="glimpse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="glimpse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="site-images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="glimpse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="glimpse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="documents" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="glimpse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="glimpse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="documents" type="462c0819:PsiDirectoryNode" />
-              <item name="karnataka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="glimpse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="glimpse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="glimpse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="glimpse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.dropwizard:dropwizard-servlets:0.7.1" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="glimpse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.dropwizard:dropwizard-servlets:0.7.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="dropwizard-servlets-0.7.1.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="glimpse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.dropwizard:dropwizard-servlets:0.7.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="dropwizard-servlets-0.7.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="servlets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="glimpse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.dropwizard:dropwizard-servlets:0.7.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="dropwizard-servlets-0.7.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="servlets" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="css&#9;FILE&#9;file:///Users/kunalsingh.k/glimpse/src/main/resources/assets/style.css&#10;ESO&#9;FILE&#9;file:///Users/kunalsingh.k/glimpse/src/main/java/glimpse/ESOperations.java&#10;/Users/kunalsingh.k/glimpse/src/main/resources/documents/karnataka/trekking&#9;FILE&#9;file:///Users/kunalsingh.k/glimpse/src/main/resources/documents/karnataka/trekking&#10;dataC&#9;FILE&#9;file:///Users/kunalsingh.k/glimpse/src/main/java/glimpse/DataCrawler.java&#10;gitig&#9;FILE&#9;file:///Users/kunalsingh.k/glimpse/.gitignore&#10;des&#9;FILE&#9;file:///Users/kunalsingh.k/glimpse/src/main/resources/assets/destination.js&#10;destin&#9;FILE&#9;file:///Users/kunalsingh.k/glimpse/src/main/java/glimpse/DestinationResource.java&#10;App&#9;FILE&#9;file:///Users/kunalsingh.k/glimpse/src/main/java/glimpse/GlimpseApp.java&#10;/Users/kunalsingh.k/glimpse/src/main/java/glimpse/documents/karnataka/hillstation&#9;FILE&#9;file:///Users/kunalsingh.k/glimpse/src/main/java/glimpse/documents/karnataka/hillstation&#10;ESOp&#9;FILE&#9;file:///Users/kunalsingh.k/glimpse/src/main/java/glimpse/ESOperations.java&#10;desti&#9;FILE&#9;file:///Users/kunalsingh.k/glimpse/src/main/java/glimpse/DestinationResource.java&#10;Data&#9;FILE&#9;file:///Users/kunalsingh.k/glimpse/src/main/java/glimpse/DataCrawler.java&#10;travel&#9;FILE&#9;file:///Users/kunalsingh.k/glimpse/src/main/java/travel-destination.yaml&#10;DestinationResource&#9;PSI&#9;JAVA://glimpse.DestinationResource&#10;Destination&#9;FILE&#9;file:///Users/kunalsingh.k/glimpse/src/main/java/glimpse/models/Destination.java&#10;service&#9;FILE&#9;file:///Users/kunalsingh.k/glimpse/src/main/java/glimpse/DestinationService.java&#10;esop&#9;FILE&#9;file:///Users/kunalsingh.k/glimpse/src/main/java/glimpse/ESOperations.java" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563465530294" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/glimpse" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="glimpse.kafka" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/glimpse" />
       <recent name="$PROJECT_DIR$/src/main/resources/assets" />
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
@@ -731,22 +166,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DataCrawler">
+  <component name="RunManager" selected="Application.Glimpse service">
     <configuration name="DataCrawler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="glimpse.DataCrawler" />
-      <module name="glimpse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="glimpse.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ESOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="glimpse.ESOperations" />
       <module name="glimpse" />
       <extension name="coverage">
         <pattern>
@@ -768,7 +190,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataExtractor.downloadImageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KStreamService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="glimpse.kafka.KStreamService" />
+      <module name="glimpse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="glimpse.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaConsumerService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="glimpse.kafka.KafkaConsumerService" />
+      <module name="glimpse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="glimpse.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaProducerService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="glimpse.kafka.KafkaProducerService" />
+      <module name="glimpse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="glimpse.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataExtractor.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="glimpse" />
       <extension name="coverage">
         <pattern>
@@ -778,39 +239,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="glimpse" />
       <option name="MAIN_CLASS_NAME" value="glimpse.DataExtractor" />
-      <option name="METHOD_NAME" value="downloadImageTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataExtractor.testImageCrawl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="glimpse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="glimpse.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="glimpse" />
-      <option name="MAIN_CLASS_NAME" value="glimpse.DataExtractor" />
-      <option name="METHOD_NAME" value="testImageCrawl" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ESOperations.getElementByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="glimpse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="glimpse.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="glimpse" />
-      <option name="MAIN_CLASS_NAME" value="glimpse.ESOperations" />
-      <option name="METHOD_NAME" value="getElementByIdTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -819,20 +248,30 @@
     <list>
       <item itemvalue="Application.Glimpse service" />
       <item itemvalue="Application.DataCrawler" />
-      <item itemvalue="JUnit.ESOperations.getElementByIdTest" />
-      <item itemvalue="JUnit.DataExtractor.testImageCrawl" />
-      <item itemvalue="JUnit.DataExtractor.downloadImageTest" />
-      <item itemvalue="Application.ESOperations" />
+      <item itemvalue="Application.KafkaProducerService" />
+      <item itemvalue="Application.KafkaConsumerService" />
+      <item itemvalue="JUnit.DataExtractor.test" />
+      <item itemvalue="Application.KStreamService" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KStreamService" />
         <item itemvalue="Application.DataCrawler" />
-        <item itemvalue="JUnit.DataExtractor.downloadImageTest" />
-        <item itemvalue="Application.ESOperations" />
-        <item itemvalue="JUnit.DataExtractor.testImageCrawl" />
-        <item itemvalue="JUnit.ESOperations.getElementByIdTest" />
+        <item itemvalue="Application.KafkaProducerService" />
+        <item itemvalue="Application.KafkaConsumerService" />
+        <item itemvalue="JUnit.DataExtractor.test" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -847,118 +286,26 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="DataExtractor_downloadImageTest - 2019.07.11 at 19h 51m 30s.xml">
-      <configuration name="DataExtractor.downloadImageTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataExtractor_downloadImageTest - 2019.07.11 at 19h 53m 28s.xml">
-      <configuration name="DataExtractor.downloadImageTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataExtractor_downloadImageTest - 2019.07.11 at 19h 54m 36s.xml">
-      <configuration name="DataExtractor.downloadImageTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataExtractor_downloadImageTest - 2019.07.11 at 19h 58m 08s.xml">
-      <configuration name="DataExtractor.downloadImageTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataExtractor_downloadImageTest - 2019.07.11 at 20h 01m 22s.xml">
-      <configuration name="DataExtractor.downloadImageTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataExtractor_downloadImageTest - 2019.07.11 at 20h 14m 28s.xml">
-      <configuration name="DataExtractor.downloadImageTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataExtractor_downloadImageTest - 2019.07.11 at 20h 16m 57s.xml">
-      <configuration name="DataExtractor.downloadImageTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataExtractor_downloadImageTest - 2019.07.11 at 20h 20m 57s.xml">
-      <configuration name="DataExtractor.downloadImageTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataExtractor_downloadImageTest - 2019.07.11 at 20h 25m 45s.xml">
-      <configuration name="DataExtractor.downloadImageTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataExtractor_downloadImageTest - 2019.07.12 at 09h 20m 40s.xml">
-      <configuration name="DataExtractor.downloadImageTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6927803" visible="true" weight="0.21745351" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.30721965" side_tool="true" weight="0.14091559" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.44578314" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.38795182" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.22168675" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32771084" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.1502146" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6927803" visible="true" weight="0.21316166" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.30721965" side_tool="true" weight="0.14091559" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.49036145" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4626506" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4698795" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.1502146" />
-    </layout-to-restore>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/glimpse/DataCrawler.java</url>
-          <line>39</line>
-          <properties />
-          <option name="timeStamp" value="11" />
+          <line>147</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -996,292 +343,6 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.10.2/jsoup-1.10.2-sources.jar!/org/jsoup/nodes/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="179" column="18" selection-start-line="179" selection-start-column="18" selection-end-line="179" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/images/100-cow-plastic-bottle-thirumala-original-imafgxh9h3ccszx3.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/images/agumbetrek-10.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/images/agumbetrek-7.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/images/agumbetrek-4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/images/agumbetrek-8.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/images/borrowed_image.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/images/agumbetrek-9.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/glimpse/models/DestinationImages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/glimpse/models/Destination.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/images/agumbetrek-6.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/glimpse/RedisOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="71" column="66" selection-start-line="71" selection-start-column="66" selection-end-line="71" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/documents/karnataka/hillstation/agumbe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1827">
-          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/images/kanoorforttrek-12.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/images/kanoorforttrek-8.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/images/kanoorforttrek-6.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/io/InputStreamReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2085">
-          <caret line="166" column="15" selection-start-line="166" selection-start-column="15" selection-end-line="166" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.7.0/elasticsearch-6.7.0-sources.jar!/org/elasticsearch/action/ActionFuture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.7.0/elasticsearch-6.7.0-sources.jar!/org/elasticsearch/client/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2985">
-          <caret line="265" column="22" selection-start-line="265" selection-start-column="22" selection-end-line="265" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/images/kanoorforttrek-1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/images/kanoorforttrek-13.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.7.0/elasticsearch-6.7.0-sources.jar!/org/elasticsearch/action/get/GetResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="138" column="18" selection-start-line="138" selection-start-column="18" selection-end-line="138" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/images/kanoorforttrek-15.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/glimpse/DestinationStoreApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/glimpse/DestinationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/images/agumbetrek-1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/images/agumbetrek-3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/images/agumbetrek-2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/destination.html" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar!/javax/servlet/ServletRegistration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-servlet/9.0.7.v20131107/jetty-servlet-9.0.7.v20131107.jar!/org/eclipse/jetty/servlet/ServletHolder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="645" column="59" selection-start-line="645" selection-start-column="48" selection-end-line="645" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/dropwizard/dropwizard-jetty/0.7.1/dropwizard-jetty-0.7.1.jar!/io/dropwizard/jetty/setup/ServletEnvironment.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="52" column="73" selection-start-line="52" selection-start-column="69" selection-end-line="52" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/dropwizard/dropwizard-core/0.7.1/dropwizard-core-0.7.1-sources.jar!/io/dropwizard/setup/Bootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="123" column="16" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/dropwizard/dropwizard-assets/0.7.1/dropwizard-assets-0.7.1.jar!/io/dropwizard/assets/AssetsBundle.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="56" column="91" selection-start-line="56" selection-start-column="81" selection-end-line="56" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/glimpse/GlimpseApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="31" column="92" selection-start-line="31" selection-start-column="92" selection-end-line="31" selection-end-column="92" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/glimpse/DestinationResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="59" column="28" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/dropwizard/dropwizard-servlets/0.7.1/dropwizard-servlets-0.7.1.jar!/io/dropwizard/servlets/assets/AssetServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="34" column="25" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/dropwizard/dropwizard-jersey/0.7.1/dropwizard-jersey-0.7.1.jar!/io/dropwizard/jersey/setup/JerseyEnvironment.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/recommedation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/site-images/glipmse-backgroud-1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/site-images/glimpse-landing.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/images/agumbetrek-5.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.8.8/jackson-databind-2.8.8.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="1173" column="18" selection-start-line="1173" selection-start-column="18" selection-end-line="1173" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/glimpse/ESOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/glimpse/DataExtractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="195" column="33" lean-forward="true" selection-start-line="195" selection-start-column="33" selection-end-line="195" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/destination.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="440" lean-forward="true" selection-start-line="440" selection-end-line="440" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/glimpse/models/Type.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/glimpse/DataCrawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
-          <caret line="123" column="58" selection-start-line="123" selection-start-column="37" selection-end-line="123" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6964#6965#0" expanded="true" />
-            <element signature="e#7022#7023#0" expanded="true" />
-            <element signature="e#7082#7083#0" expanded="true" />
-            <element signature="e#7143#7144#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
