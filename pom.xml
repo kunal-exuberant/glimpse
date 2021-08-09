@@ -22,7 +22,7 @@
 
 
     <properties>
-        <elasticsearch.version>6.7.0</elasticsearch.version>
+        <elasticsearch.version>6.8.17</elasticsearch.version>
     </properties>
 
 
